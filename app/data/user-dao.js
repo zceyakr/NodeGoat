@@ -26,7 +26,7 @@ function UserDAO(db) {
 
             // Fix for A2-1 - Broken Auth
             // Stores password  in a safer way using one way encryption and salt hashing
-            password: bcrypt.hashSync(password, bcrypt.genSaltSync())
+            //password:bcrypt.hashSync(password, bcrypt.genSaltSync())
 
         };
 
